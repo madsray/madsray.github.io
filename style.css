@@ -1,5 +1,5 @@
 body {
-  background-color:  #D6D4E1;
+  background-color:  #E7E5EA;
   margin: 0;
 }
 header{
@@ -8,7 +8,7 @@ header{
   background-size: cover;
   width: auto;
   height: 700px;
-  padding-top: 20px;
+  padding: 20px 0;
 }
 #name{
   float: left;
@@ -17,7 +17,7 @@ header{
   background-color: #7F7B7C;
   color: #D6D4E1;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-top: 5px;
 }
 
@@ -59,8 +59,37 @@ li {
   text-align: center;
   color: #7F7B7C;
   font-family: 'Open Sans Condensed', sans-serif;
+  padding-right: 10px;
 }
 li:hover{
   background-color: #7F7B7C;
   color: #D6D4E1;
 }
+#aboutp{
+  color: #8A8685;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  padding: 20px;
+}
+.containerabout{
+  width:75%;
+  margin: 0 auto;
+  box-shadow: 5px 10px 18px gray;
+  background-color:  #D3BDBB;
+  border-radius: 15px;
+}
+.about {
+  background-color: #B7ACAB;
+  padding-bottom: 10px;
+}
+#resume{
+  display: block;
+  margin: 20px auto;
+}
+h2 {
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+  margin:0;
+  padding-top: 30px;
+  color: #7F7B7C;
