@@ -86,15 +86,27 @@ li:hover{
   padding-bottom: 30px;
   padding-top: 50px;
 }
-#resume{
+#resPush{
+  padding-left: 10%;
+}
+img#resume{
   display: block;
-  margin: 50px auto;
+  border-radius: 50px;
 }
 #work{
   display: flex;
   justify-content: center;
 }
-
+h5{
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+  color: white;
+  border: 3px solid white;
+  width: auto;
+  height: 20%;
+  padding: 40px;
+}
 h4{
   text-align: center;
   font-family: 'Sacramento', cursive;
@@ -117,6 +129,12 @@ h3 {
   padding: 20px;
   margin-left: 60%;
 }
+.resumeCont{
+  display: flex;
+  justify-content: center;
+  margin: 10% 0;
+}
+
 input{
   display: flex;
   flex-direction: column;
@@ -138,8 +156,8 @@ input{
   width: 500px;
   height: auto;
   padding-left: 15%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+   padding-top: 5%;
+  padding-bottom: 5%; 
   display: flex;
   flex-wrap: wrap;
 }
