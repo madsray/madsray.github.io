@@ -1,4 +1,66 @@
 body {
-  background-color: black;
+  background-color:  #D6D4E1;
+  margin: 0;
+}
+header{
+  background-image: url('https://i.imgur.com/J88H1jA.jpg');
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 700px;
+  padding-top: 20px;
+}
+#name{
+  float: left;
+  font-size: 50px;
+  font-family: 'Sacramento', cursive;
+  background-color: #7F7B7C;
+  color: #D6D4E1;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+span{
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.box{
+  padding: 0 10px;
+  height: 30%;
+  width:40%;
+  position: relative;
+  top: 35%;
+  left: 53%;
+}
+
+.quote{
+  border: 3px solid white;
+  text-align: center;
   color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: lighter;
+  padding: 20px 50px;
+  font-size: 40px;
+  text-shadow:  0 0 30px #000000;
+}
+ul {
+  background-color:  #D6D4E1;
+  width: auto;
+  height: 60px;
+  margin: 0;
+}
+li {
+  display: inline;
+  float: right;
+  padding:10px;
+  font-size: 30px;
+  text-align: center;
+  color: #7F7B7C;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+li:hover{
+  background-color: #7F7B7C;
+  color: #D6D4E1;
 }
