@@ -126,8 +126,8 @@ h3 {
   width: 220px;
 }
 .container{
-  padding: 20px;
-  margin-left: 60%;
+  padding-left: 20%;
+
 }
 .resumeCont{
   display: flex;
@@ -151,7 +151,7 @@ input{
   flex-direction: column;
   width:300px;
   height: 25px;
-  margin:20px 20px 20px 0px;
+  margin:0 20px 20px 0px;
   background-color: #FEFDF7;
   border: 0px;
   color: #8A8685;
@@ -206,4 +206,25 @@ button{
 }
 .resume{
   background-color: #D3BDBB;
+}
+.contactcon{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+h6{
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+  color: white;
+  border: 3px solid white;
+  width: auto;
+  padding: 40px;
+  margin: 0;
+
+}
+
+form{
+  margin: 0;
 }
