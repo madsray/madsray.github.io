@@ -83,19 +83,35 @@ li:hover{
 }
 .about {
   background-color: #B7ACAB;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+  padding-top: 50px;
 }
 #resume{
   display: block;
-  margin: 20px auto;
+  margin: 50px auto;
 }
-h2 {
+#work{
+  display: flex;
+  justify-content: center;
+}
+
+h4{
   text-align: center;
   font-family: 'Sacramento', cursive;
   font-size: 60px;
-  margin:0;
-  padding-top: 30px;
-  color: #7F7B7C;
+  color: white;
+  border: 3px solid white;
+  width: auto;
+  padding: 40px;
+}
+h3 {
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+  margin:0 auto;
+  color: white;
+  border: 3px solid white;
+  width: 220px;
 }
 .container{
   padding: 20px;
@@ -106,5 +122,27 @@ input{
   flex-direction: column;
   width:70%;
   height: 25px;
+}
+.projectimg {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 5px 10px 18px gray;
+  margin: 1%;
+}
 
+.projects{
+  padding: 5px;
+}
+#workright{
+  width: 500px;
+  height: auto;
+  padding-left: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.work{
+  background-color: #9CA1A8;
 }
