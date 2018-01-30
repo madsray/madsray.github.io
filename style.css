@@ -109,13 +109,14 @@ h5{
     background-image: url('https://i.imgur.com/6jDHPnL.png');
 }
 h4{
+  margin-top: 0;
   text-align: center;
   font-family: 'Sacramento', cursive;
   font-size: 60px;
   color: #7E7B7C;
   border: 3px solid #7E7B7C;
   width: auto;
-  padding: 40px;
+  padding:40px;
     background-image: url('https://i.imgur.com/6jDHPnL.png');
 }
 h3 {
@@ -198,13 +199,13 @@ button{
   width: 500px;
   height: auto;
   padding-left: 15%;
-   padding-top: 5%;
+   /* padding-top: 5%; */
   padding-bottom: 5%;
   display: flex;
   flex-wrap: wrap;
 }
 .work{
-  background-color:  #D8D1DC;
+  /* background-color:  #D8D1DC; */
 }
 .contact{
   background-color: #E7E5EA;
@@ -232,4 +233,34 @@ h6{
 
 form{
   margin: 0;
+}
+.myDiv{
+   width:35%;
+   margin:5% 43%;
+   padding: 5%;
+}
+h7 {
+  font-size: 30px;
+  color:#7E7B7C;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+h9{
+  font-size: 20px;
+  color:#7E7B7C;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+h8{
+  font-size: 20px;
+  color:#7E7B7C;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+p{
+  font-size: 20px;
+  color:#7E7B7C;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #7E7B7C;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
