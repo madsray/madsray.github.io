@@ -243,7 +243,8 @@ h7 {
 
 }
 h8{
-  font-size: 20px;
+  padding-top: 5px;
+  font-size: 15px;
   color:#7E7B7C;
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
@@ -288,6 +289,7 @@ a{
 .modal{
   padding-top: 10%;
   padding-left:10%;
+  padding-right: 10%;
 }
 /* Inner */
 .popup-inner {
@@ -342,8 +344,9 @@ ul#list2{
 }
 footer{
   background-color: #D6D5E0;
-
-
+}
+.first{
+  border: 3px solid #D3BDBB;
 }
 .iconcont{
   display: flex;
@@ -357,7 +360,7 @@ footer{
   align-items: center;
 }
 #icons{
-  padding: 15px;
+  padding: 1px;
 }
 .icon{
   width: 5%;
