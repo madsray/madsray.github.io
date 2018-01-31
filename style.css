@@ -45,7 +45,7 @@ span{
   font-size: 40px;
   text-shadow:  0 0 30px #000000;
 }
-ul {
+#list1 {
   background-color:  #D6D4E1;
   width: auto;
   height: 60px;
@@ -54,7 +54,7 @@ ul {
   top:0;
   width: 100%;
 }
-li {
+.list1 {
   display: inline;
   float: right;
   padding:10px;
@@ -64,7 +64,7 @@ li {
   font-family: 'Open Sans Condensed', sans-serif;
   margin-right: 5%;
 }
-li:hover{
+.list1:hover{
   background-color: #7F7B7C;
   color: #D6D4E1;
 }
@@ -117,6 +117,7 @@ h4{
   border: 3px solid #7E7B7C;
   width: auto;
   padding:40px;
+  margin-top: 25%;
     background-image: url('https://i.imgur.com/6jDHPnL.png');
 }
 h3 {
@@ -199,7 +200,7 @@ button{
   width: 500px;
   height: auto;
   padding-left: 15%;
-   /* padding-top: 5%; */
+   padding-top: 5%;
   padding-bottom: 5%;
   display: flex;
   flex-wrap: wrap;
@@ -234,33 +235,83 @@ h6{
 form{
   margin: 0;
 }
-.myDiv{
-   width:35%;
-   margin:5% 43%;
-   padding: 5%;
-}
 h7 {
   font-size: 30px;
   color:#7E7B7C;
   font-family: 'Open Sans Condensed', sans-serif;
-}
-h9{
-  font-size: 20px;
-  color:#7E7B7C;
-  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+
 }
 h8{
   font-size: 20px;
   color:#7E7B7C;
   font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
 }
 p{
   font-size: 20px;
   color:#7E7B7C;
   font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
 }
 a{
   text-decoration: none;
   color: #7E7B7C;
   font-family: 'Open Sans Condensed', sans-serif;
+}
+.popup {
+width:100%;
+height:100%;
+display:none;
+position:fixed;
+top:0px;
+left:0px;
+background:rgba(0,0,0,0.75);
+
+}
+/* Inner */
+.popup-inner {
+max-width:700px;
+width:90%;
+padding:40px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+box-shadow:0px 2px 6px rgba(0,0,0,1);
+border-radius:3px;
+background:#fff;
+}
+/* Close Button */
+.popup-close {
+width:30px;
+height:30px;
+padding-top:4px;
+display:inline-block;
+position:absolute;
+top:0px;
+right:0px;
+transition:ease 0.25s all;
+
+transform:translate(50%, -50%);
+border-radius:1000px;
+background:rgba(0,0,0,0.8);
+font-family:Arial, Sans-Serif;
+font-size:20px;
+text-align:center;
+line-height:100%;
+color:#fff;
+}
+.popup-close:hover {
+transform:translate(50%, -50%) rotate(180deg);
+background:rgba(0,0,0,1);
+text-decoration:none;
+}
+.list2{
+  font-size: 20px;
+  color:#7E7B7C;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+ul#list2{
+  list-style-type: none;
 }

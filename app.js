@@ -1,14 +1,15 @@
 
-$(() => {
-
- $('#war').on('click', ()=>{
-   $('<h7>This is War</h7><br>').appendTo('#div');
-   $('<h9>Independent Project</h9><br>').appendTo('#div');
-   $('<h8>Date: November 30, 2017</h8>').appendTo('#div');
-   $('<p>This app was built for project one of General Assemblys Web Development Immersive. HTML, CSS, Javascript, and JQuery were the technologies used to build it. I love card games and this was a popular card game I played as a child, so I chose this game to build for project one. Overall, I am very proud of how it turned out, however, I plan on going back and fixing up so the tie part of the game.</p>').appendTo('#div');
-   $('<a href="https://madsray.github.io/This_Is_War/">| Live Site |</a>').appendTo('#div');
-   $('<a href="https://github.com/madsray/This_Is_War">| GitHub |</a>').appendTo('#div');
-   $('<')
-
- })
+$(function() {
+//----- OPEN
+$('[data-popup-open]').on('click', function(e)  {
+var targeted_popup_class = jQuery(this).attr('data-popup-open');
+$('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
+e.preventDefault();
+});
+//----- CLOSE
+$('[data-popup-close]').on('click', function(e)  {
+var targeted_popup_class = jQuery(this).attr('data-popup-close');
+$('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
+e.preventDefault();
+});
 });

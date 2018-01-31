@@ -15,14 +15,14 @@
 <body>
   <nav>
     <div>
-      <ul>
-        <a href="#contact"><li>Contact</li></a>
+      <ul id="list1">
+        <a href="#contact"><li class="list1">Contact</li></a>
         <!-- <li>Playlist</li> -->
-        <a href="#resume"><li>Resume</li></a>
-        <a href="#work"><li>Work</li></a>
-        <a href="#about"><li>About</li></a>
-        <a href="#home"><li>Home</li></a>
-        <li id="name">Madison Ray</li>
+        <a href="#resume"><li class="list1">Resume</li></a>
+        <a href="#work"><li class="list1">Work</li></a>
+        <a href="#about"><li class="list1">About</li></a>
+        <a href="#home"><li class="list1">Home</li></a>
+        <li id="name" class="list1">Madison Ray</li>
       </ul>
     </nav>
     <header id="home">
@@ -40,15 +40,107 @@
   </div>
 
   <div class="work">
-    <div id="div" class="myDiv" >
-      <!-- <div class="title"></div><br>
-      <div class="type"></div><br>
-      <div class="date"></div>
-      <div class="description"><div>
-        <br>
-      <div class="github"></div>
-      <div class="livesite"></div> -->
+    <div class="popup" data-popup="popup-1">
+    <div class="popup-inner">
+    <h7 id="center">Cactus Pinterest</h7><br>
+    <h8 id="center">Independent Project</h8><br>
+    <h8 id="center">Date: December 8, 2017</h8><br>
+    <h8 id="center">Technologies Used</h8>
+    <ul id="list2">
+      <li class="list2">NodeJS</li>
+      <li class="list2">Express</li>
+      <li class="list2">EJS</li>
+      <li class="list2">MongoDB</li>
+      <li class="list2">Mongoose</li>
+      <li class="list2">CSS</li>
+      <li class="list2">Bootstrap</li>
+    </ul>
+    <p>I wanted to create a full stack application that combined my love for cactus and a common website that I visit everyday (Pinterest). I used a one to many model to add the comments for each picture and sub indexes to create the multiple page dimension.</p>
+    <p><a data-popup-close="popup-1" href="#">Close</a></p>
+    <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
     </div>
+    </div>
+    <!-- +++++++++++++++++++++++++++++++++++++++ -->
+    <div class="popup" data-popup="popup-2">
+    <div class="popup-inner">
+    <h7 id="center">Sips and Bites</h7><br>
+    <h8 id="center">Independent Project</h8><br>
+    <h8 id="center">Date: January 31, 2018</h8><br>
+    <h8 id="center">Technologies Used</h8>
+    <ul id="list2">
+      <li class="list2">HTML</li>
+      <li class="list2">Express</li>
+      <li class="list2">Rails</li>
+      <li class="list2">Angular</li>
+      <li class="list2">CSS</li>
+      <li class="list2">JQuery</li>
+    </ul>
+    <p>Good happy hour apps are always hard to find. I wanted to create an app that users could add their own cities and categorize happy hours based on what they are looking for. Also, having reviews on the happy hour page, so that users could say well the drinks aren't that great, but the deal is awesome.</p>
+    <p><a data-popup-close="popup-2" href="#">Close</a></p>
+    <a class="popup-close" data-popup-close="popup-2" href="#">x</a>
+    </div>
+    </div>
+    <!-- +++++++++++++++++++++++++++++++++++++++ -->
+    <div class="popup" data-popup="popup-3">
+    <div class="popup-inner">
+    <h7 id="center">This is War</h7><br>
+    <h8 id="center">Independent Project</h8><br>
+    <h8 id="center">Date: November 30, 2017</h8><br>
+    <h8 id="center">Technologies Used</h8>
+    <ul id="list2">
+      <li class="list2">HTML</li>
+      <li class="list2">Javascript</li>
+      <li class="list2">JQuery</li>
+      <li class="list2">CSS</li>
+
+    </ul>
+    <p>This app was built for project one of General Assemblys Web Development Immersive. I love card games and this was a popular card game I played as a child, so I chose this game to build for project one. Overall, I am very proud of how it turned out, however, I plan on going back and fixing up so the tie part of the game.</p>
+    <p><a data-popup-close="popup-3" href="#">Close</a></p>
+    <a class="popup-close" data-popup-close="popup-3" href="#">x</a>
+    </div>
+    </div>
+    <!-- +++++++++++++++++++++++++++++++++++++++ -->
+    <div class="popup" data-popup="popup-4">
+    <div class="popup-inner">
+    <h7 id="center">Dinner and a Movie</h7><br>
+    <h8 id="center">Group Project</h8><br>
+    <h8 id="center">Date: January 18, 2018</h8><br>
+    <h8 id="center">Technologies Used</h8>
+    <ul id="list2">
+      <li class="list2">HTML</li>
+      <li class="list2">Javascript</li>
+      <li class="list2">Angular</li>
+      <li class="list2">CSS</li>
+      <li class="list2">Ruby on Rails</li>
+
+    </ul>
+    <p>There are tons of movie review apps out there, so what makes ours different? We pair it with meals. Add your favorite meal to eat while you watch movies and don't forget to add movie titles that you have a great pairing for!</p>
+    <p><a data-popup-close="popup-4" href="#">Close</a></p>
+    <a class="popup-close" data-popup-close="popup-4" href="#">x</a>
+    </div>
+    </div>
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <div class="popup" data-popup="popup-5">
+    <div class="popup-inner">
+    <h7 id="center">Who Brew</h7><br>
+    <h8 id="center">Group Project</h8><br>
+    <h8 id="center">Date: December 22, 2017</h8><br>
+    <h8 id="center">Technologies Used</h8>
+    <ul id="list2">
+      <li class="list2">HTML</li>
+      <li class="list2">Mongoose</li>
+      <li class="list2">Angular</li>
+      <li class="list2">CSS</li>
+      <li class="list2">Express</li>
+      <li class="list2">NodeJS</li>
+
+    </ul>
+    <p>An app that lets you find the breweries near you! Been to a brewery and don't see it on there? Log in and add it. Make sure to leave a review if you try out any of the breweries.</p>
+    <p><a data-popup-close="popup-5" href="#">Close</a></p>
+    <a class="popup-close" data-popup-close="popup-5" href="#">x</a>
+    </div>
+    </div>
+
     <div id="work">
       <div class="worktitle">
         <h4>works in<br> progress</h4>
@@ -56,23 +148,23 @@
       <div id="workright">
 
         <div class="projects">
-          <img id="war" class="projectimg" src="https://i.imgur.com/q9PUlzs.jpg" alt="cactus pinterest">
+        <a data-popup-open="popup-1" href="#"><img class="projectimg"  src="https://i.imgur.com/q9PUlzs.jpg" alt="cactus pinterest"></a>
         </div>
         <div class="projects">
-          <a><img class="projectimg" src="https://i.imgur.com/DPVMyaa.jpg"></a>
-        </div>
-
-
-        <div class="projects">
-          <a><img class="projectimg" src="https://i.imgur.com/yI2RoVR.jpg"></a>
-        </div>
-        <div class="projects">
-          <a><img class="projectimg" src="https://i.imgur.com/oeLt6Xl.jpg"></a>
+          <a data-popup-open="popup-2" href="#"><img class="projectimg" src="https://i.imgur.com/DPVMyaa.jpg"></a>
         </div>
 
 
         <div class="projects">
-          <a><img class="projectimg" src="https://i.imgur.com/P65ckFY.png"></a>
+          <a data-popup-open="popup-3" href="#"><img class="projectimg" src="https://i.imgur.com/yI2RoVR.jpg"></a>
+        </div>
+        <div class="projects">
+          <a data-popup-open="popup-4" href="#"><img class="projectimg" src="https://i.imgur.com/oeLt6Xl.jpg"></a>
+        </div>
+
+
+        <div class="projects">
+          <a  data-popup-open="popup-4" href="#"><img class="projectimg" src="https://i.imgur.com/P65ckFY.png"></a>
         </div>
 
       </div>
