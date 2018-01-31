@@ -340,3 +340,28 @@ ul#list2{
   list-style-type: none;
   padding-left: 0px;
 }
+footer{
+  background-color: #D6D5E0;
+
+
+}
+.iconcont{
+  display: flex;
+  justify-content: space-between;
+  flex-direction:
+
+}
+#heart{
+  width: 300px;
+  text-align: center;
+  align-items: center;
+}
+#icons{
+  padding: 15px;
+}
+.icon{
+  width: 5%;
+  height: auto;
+  float: right;
+
+}
