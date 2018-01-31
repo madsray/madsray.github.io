@@ -2,6 +2,12 @@ body {
   background-color:  #E7E5EA;
   margin: 0;
 }
+#dev{
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 header{
   background-image: url('https://i.imgur.com/J88H1jA.jpg');
   background-position: center;
@@ -16,15 +22,18 @@ header{
   font-family: 'Sacramento', cursive;
   background-color: #7F7B7C;
   color: #D6D4E1;
-  padding: 5px;
+  padding: 3px;
   border-radius: 10px;
   margin-top: 5px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 span{
   font-weight: lighter;
   font-size: 20px;
   font-family: 'Open Sans Condensed', sans-serif;
+
 }
 .box{
   padding: 0 10px;
