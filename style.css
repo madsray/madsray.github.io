@@ -355,12 +355,12 @@ footer{
 
 }
 #heart{
-  width: 300px;
+  width: 400px;
   text-align: center;
   align-items: center;
 }
 #icons{
-  padding: 1px;
+  padding: 2%;
 }
 .icon{
   width: 5%;
