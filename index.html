@@ -14,32 +14,34 @@
   <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
 </head>
 <body>
-  <nav>
+  <header id="home">
+    <div id="headcont">
+    <div id="icons">
+      <a href="https://github.com/madsray"><img class="icon" src="https://i.imgur.com/37Q1q36.png"></a>
+      <a href="https://www.linkedin.com/in/madisoneray/"> <img class="icon" src="https://i.imgur.com/z48p0px.png"></a>
+      <a href="https://profiles.generalassemb.ly/madisonray"><img  class="icon" src="https://i.imgur.com/DkEQe6l.png"></a>
+    </div>
     <div>
-      <ul id="list1">
-        <a href="#contact"><li class="list1">Contact</li></a>
-        <!-- <li>Playlist</li> -->
-        <a href="#resume"><li class="list1">Resume</li></a>
-        <a href="#work"><li class="list1">Work</li></a>
-        <a href="#about"><li class="list1">About</li></a>
-        <a href="#home"><li class="list1">Home</li></a>
-        <li id="name" class="list1">Madison Ray<br><span id="dev">web developer</span></li>
+      <ul>
+        <a href="#about"><li class="list1">about</li></a>
+        <a href="#work"><li class="list1">work</li></a>
+        <a href="Resume2017.pdf" target="_blank"><li class="list1">resume</li></a>
+        <a href="#contact"><li class="list1">contact</li></a>
       </ul>
-    </nav>
-    <header id="home">
-      <div class="box">
-        <h2 class="quote">"Where You Invest Your Love, You Invest Your Life." <br><span>-Mumford & Sons</span></h2>
-      </div>
-    </header>
+    </div>
   </div>
+      <img id="logo" src="https://i.imgur.com/dn92VL0.png" alt="logo">
+
+  </header>
   <div id="about" class="about">
-    <h3>about</h3>
+    <h2>about</h2>
     <div class="containerabout">
       <p id="aboutp"> Hello, my name is Madison Ray and I am a web developer based in Nashville, TN. I am a born and raised Texan (Go Astros!) who moved to Nashville in 2013 to attend Belmont University where I received my BBA in Music Business with a minor in Design Communication. Through internships at Dualtone Music Group, Oprah Magazine, and Thirty Tigers, I have gained experience in graphic design, fashion magazine operations, and project management. Since graduating, I have completed my certification in web development from General Assembly. I am an innovator who loves to tell stories and solve problems for my clients in an easy to use and graphically appealing way.
+        <br>
+        <br>
+        When not working I am most likely spoiling my maltipoo, Winston, who is my sidekick in all things cuddling and Netflix. I love where I live, Nashville’s music scene and offbeat style has inspired much of my work. It’s also possible that I have a slight candle addiction and a serious love for cactus, must be the Texas in me.
 
-When not working I am most likely spoiling my maltipoo, Winston, who is my sidekick in all things cuddling and Netflix. I love where I live, Nashville’s music scene and offbeat style has inspired much of my work. It’s also possible that I have a slight candle addiction and a serious love for cactus, must be the Texas in me.
-
-I hope you enjoy looking around my website and please contact me if you have any questions or an idea you want to turn into a reality.
+        I hope you enjoy looking around my website and please contact me if you have any questions or an idea you want to turn into a reality.
       </p>
     </div>
   </div>
@@ -47,152 +49,152 @@ I hope you enjoy looking around my website and please contact me if you have any
   <div class="work">
 
     <div class="popup" data-popup="popup-1">
-    <div class="popup-inner">
-      <div class="modalcont">
-        <div class="modal first">
-    <h7>Cactus Pinterest</h7><br>
-    <h8>Independent Project</h8><br>
-    <h8>Date: December 8, 2017</h8><br>
-    <h8>Technologies Used:</h8>
-    <ul id="list2">
-      <li class="list2">NodeJS</li>
-      <li class="list2">Express</li>
-      <li class="list2">EJS</li>
-      <li class="list2">MongoDB</li>
-      <li class="list2">Mongoose</li>
-      <li class="list2">CSS</li>
-      <li class="list2">Bootstrap</li>
-    </ul>
-  </div>
-    <div class="modal">
-      <a href="https://github.com/madsray/cactuspinterest" target="_blank"><img class="github" src="https://i.imgur.com/ZcQPkyQ.png"></a>
-      <a href="https://cactus-pinterest.herokuapp.com/cactus" target="_blank"><img class="github" src="https://i.imgur.com/dib3gSI.png"></a>
-    </div>
-  </div>
-    <p>I wanted to create a full stack application that combined my love for cactus and a common website that I visit everyday (Pinterest). I used a one to many model to add the comments for each picture and sub indexes to create the multiple page dimension.</p>
-    <p><a data-popup-close="popup-1" href="#">Close</a></p>
-    <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
-    </div>
+      <div class="popup-inner">
+        <div class="modalcont">
+          <div class="modal first">
+            <h7>Cactus Pinterest</h7><br>
+            <h8>Independent Project</h8><br>
+            <h8>Date: December 8, 2017</h8><br>
+            <h8>Technologies Used:</h8>
+            <ul id="list2">
+              <li class="list2">NodeJS</li>
+              <li class="list2">Express</li>
+              <li class="list2">EJS</li>
+              <li class="list2">MongoDB</li>
+              <li class="list2">Mongoose</li>
+              <li class="list2">CSS</li>
+              <li class="list2">Bootstrap</li>
+            </ul>
+          </div>
+          <div class="modal">
+            <a href="https://github.com/madsray/cactuspinterest" target="_blank"><img class="github" src="https://i.imgur.com/ZcQPkyQ.png"></a>
+            <a href="https://cactus-pinterest.herokuapp.com/cactus" target="_blank"><img class="github" src="https://i.imgur.com/dib3gSI.png"></a>
+          </div>
+        </div>
+        <p>I wanted to create a full stack application that combined my love for cactus and a common website that I visit everyday (Pinterest). I used a one to many model to add the comments for each picture and sub indexes to create the multiple page dimension.</p>
+        <p><a data-popup-close="popup-1" href="#">Close</a></p>
+        <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+      </div>
     </div>
     <!-- +++++++++++++++++++++++++++++++++++++++ -->
     <div class="popup" data-popup="popup-2">
-    <div class="popup-inner">
-      <div class="modalcont">
-        <div class="modal first">
-    <h7 id="center">Sips and Bites</h7><br>
-    <h8 id="center">Independent Project</h8><br>
-    <h8 id="center">Date: January 31, 2018</h8><br>
-    <h8 id="center">Technologies Used</h8>
-    <ul id="list2">
-      <li class="list2">HTML</li>
-      <li class="list2">Express</li>
-      <li class="list2">Rails</li>
-      <li class="list2">Angular</li>
-      <li class="list2">CSS</li>
-      <li class="list2">JQuery</li>
-    </ul>
-    </div>
-    <div class="modal">
-      <a href="https://github.com/madsray/sips_and_bites_front" target="_blank"><img class="github" src="https://i.imgur.com/ZcQPkyQ.png"></a>
-      <a href="https://sips-bites.herokuapp.com/" target="_blank"><img class="github" src="https://i.imgur.com/dib3gSI.png"></a>
-    </div>
-    </div>
-    <p>Good happy hour apps are always hard to find. I wanted to create an app that users could add their own cities and categorize happy hours based on what they are looking for. Also, having reviews on the happy hour page, so that users could say well the drinks aren't that great, but the deal is awesome.</p>
-    <p><a data-popup-close="popup-2" href="#">Close</a></p>
-    <a class="popup-close" data-popup-close="popup-2" href="#">x</a>
-    </div>
+      <div class="popup-inner">
+        <div class="modalcont">
+          <div class="modal first">
+            <h7 id="center">Sips and Bites</h7><br>
+            <h8 id="center">Independent Project</h8><br>
+            <h8 id="center">Date: January 31, 2018</h8><br>
+            <h8 id="center">Technologies Used</h8>
+            <ul id="list2">
+              <li class="list2">HTML</li>
+              <li class="list2">Express</li>
+              <li class="list2">Rails</li>
+              <li class="list2">Angular</li>
+              <li class="list2">CSS</li>
+              <li class="list2">JQuery</li>
+            </ul>
+          </div>
+          <div class="modal">
+            <a href="https://github.com/madsray/sips_and_bites_front" target="_blank"><img class="github" src="https://i.imgur.com/ZcQPkyQ.png"></a>
+            <a href="https://sips-bites.herokuapp.com/" target="_blank"><img class="github" src="https://i.imgur.com/dib3gSI.png"></a>
+          </div>
+        </div>
+        <p>Good happy hour apps are always hard to find. I wanted to create an app that users could add their own cities and categorize happy hours based on what they are looking for. Also, having reviews on the happy hour page, so that users could say well the drinks aren't that great, but the deal is awesome.</p>
+        <p><a data-popup-close="popup-2" href="#">Close</a></p>
+        <a class="popup-close" data-popup-close="popup-2" href="#">x</a>
+      </div>
     </div>
 
     <!-- +++++++++++++++++++++++++++++++++++++++ -->
     <div class="popup" data-popup="popup-3">
-    <div class="popup-inner">
-      <div class="modalcont">
-        <div class="modal first">
-    <h7 id="center">This is War</h7><br>
-    <h8 id="center">Independent Project</h8><br>
-    <h8 id="center">Date: November 30, 2017</h8><br>
-    <h8 id="center">Technologies Used</h8>
-    <ul id="list2">
-      <li class="list2">HTML</li>
-      <li class="list2">Javascript</li>
-      <li class="list2">JQuery</li>
-      <li class="list2">CSS</li>
-    </ul>
-  </div>
-    <div class="modal">
-      <a href="https://github.com/madsray/This_Is_War" target="_blank"><img class="github" src="https://i.imgur.com/ZcQPkyQ.png"></a>
-      <a href="https://madsray.github.io/This_Is_War/" target="_blank"><img class="github" src="https://i.imgur.com/dib3gSI.png"></a>
-    </div>
-  </div>
-    <p>This app was built for project one of General Assemblys Web Development Immersive. I love card games and this was a popular card game I played as a child, so I chose this game to build for project one. Overall, I am very proud of how it turned out, however, I plan on going back and fixing up so the tie part of the game.</p>
-    <p><a data-popup-close="popup-3" href="#">Close</a></p>
-    <a class="popup-close" data-popup-close="popup-3" href="#">x</a>
-    </div>
+      <div class="popup-inner">
+        <div class="modalcont">
+          <div class="modal first">
+            <h7 id="center">This is War</h7><br>
+            <h8 id="center">Independent Project</h8><br>
+            <h8 id="center">Date: November 30, 2017</h8><br>
+            <h8 id="center">Technologies Used</h8>
+            <ul id="list2">
+              <li class="list2">HTML</li>
+              <li class="list2">Javascript</li>
+              <li class="list2">JQuery</li>
+              <li class="list2">CSS</li>
+            </ul>
+          </div>
+          <div class="modal">
+            <a href="https://github.com/madsray/This_Is_War" target="_blank"><img class="github" src="https://i.imgur.com/ZcQPkyQ.png"></a>
+            <a href="https://madsray.github.io/This_Is_War/" target="_blank"><img class="github" src="https://i.imgur.com/dib3gSI.png"></a>
+          </div>
+        </div>
+        <p>This app was built for project one of General Assemblys Web Development Immersive. I love card games and this was a popular card game I played as a child, so I chose this game to build for project one. Overall, I am very proud of how it turned out, however, I plan on going back and fixing up so the tie part of the game.</p>
+        <p><a data-popup-close="popup-3" href="#">Close</a></p>
+        <a class="popup-close" data-popup-close="popup-3" href="#">x</a>
+      </div>
     </div>
     <!-- +++++++++++++++++++++++++++++++++++++++ -->
     <div class="popup" data-popup="popup-4">
-    <div class="popup-inner">
-      <div class="modalcont">
-        <div class="modal first">
-    <h7 id="center">Dinner and a Movie</h7><br>
-    <h8 id="center">Group Project</h8><br>
-    <h8 id="center">Date: January 18, 2018</h8><br>
-    <h8 id="center">Technologies Used</h8>
-    <ul id="list2">
-      <li class="list2">HTML</li>
-      <li class="list2">Javascript</li>
-      <li class="list2">Angular</li>
-      <li class="list2">CSS</li>
-      <li class="list2">Ruby on Rails</li>
-    </ul>
-  </div>
-    <div class="modal">
-      <a href="https://github.com/madsray/review_this_frontend" target="_blank"><img class="github" src="https://i.imgur.com/ZcQPkyQ.png"></a>
-      <a href="https://awesome-dinner-and-movie.herokuapp.com/" target="_blank"><img class="github" src="https://i.imgur.com/dib3gSI.png"></a>
-    </div>
-  </div>
-    <p>There are tons of movie review apps out there, so what makes ours different? We pair it with meals. Add your favorite meal to eat while you watch movies and don't forget to add movie titles that you have a great pairing for!</p>
-    <p><a data-popup-close="popup-4" href="#">Close</a></p>
-    <a class="popup-close" data-popup-close="popup-4" href="#">x</a>
-    </div>
+      <div class="popup-inner">
+        <div class="modalcont">
+          <div class="modal first">
+            <h7 id="center">Dinner and a Movie</h7><br>
+            <h8 id="center">Group Project</h8><br>
+            <h8 id="center">Date: January 18, 2018</h8><br>
+            <h8 id="center">Technologies Used</h8>
+            <ul id="list2">
+              <li class="list2">HTML</li>
+              <li class="list2">Javascript</li>
+              <li class="list2">Angular</li>
+              <li class="list2">CSS</li>
+              <li class="list2">Ruby on Rails</li>
+            </ul>
+          </div>
+          <div class="modal">
+            <a href="https://github.com/madsray/review_this_frontend" target="_blank"><img class="github" src="https://i.imgur.com/ZcQPkyQ.png"></a>
+            <a href="https://awesome-dinner-and-movie.herokuapp.com/" target="_blank"><img class="github" src="https://i.imgur.com/dib3gSI.png"></a>
+          </div>
+        </div>
+        <p>There are tons of movie review apps out there, so what makes ours different? We pair it with meals. Add your favorite meal to eat while you watch movies and don't forget to add movie titles that you have a great pairing for!</p>
+        <p><a data-popup-close="popup-4" href="#">Close</a></p>
+        <a class="popup-close" data-popup-close="popup-4" href="#">x</a>
+      </div>
     </div>
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
     <div class="popup" data-popup="popup-5">
-    <div class="popup-inner">
-      <div class="modalcont">
-        <div class="modal first">
-    <h7 id="center">Who Brew</h7><br>
-    <h8 id="center">Group Project</h8><br>
-    <h8 id="center">Date: December 22, 2017</h8><br>
-    <h8 id="center">Technologies Used</h8>
-    <ul id="list2">
-      <li class="list2">HTML</li>
-      <li class="list2">Mongoose</li>
-      <li class="list2">Angular</li>
-      <li class="list2">CSS</li>
-      <li class="list2">Express</li>
-      <li class="list2">NodeJS</li>
-    </ul>
-  </div>
-    <div class="modal">
-      <a href="https://github.com/VernonReis/brewery_app" target="_blank"><img class="github" src="https://i.imgur.com/ZcQPkyQ.png"></a>
-      <a href="https://wdir-brewery.herokuapp.com/" target="_blank"><img class="github" src="https://i.imgur.com/dib3gSI.png"></a>
-    </div>
-  </div>
-    <p>An app that lets you find the breweries near you! Been to a brewery and don't see it on there? Log in and add it. Make sure to leave a review if you try out any of the breweries.</p>
-    <p><a data-popup-close="popup-5" href="#">Close</a></p>
-    <a class="popup-close" data-popup-close="popup-5" href="#">x</a>
-    </div>
+      <div class="popup-inner">
+        <div class="modalcont">
+          <div class="modal first">
+            <h7 id="center">Who Brew</h7><br>
+            <h8 id="center">Group Project</h8><br>
+            <h8 id="center">Date: December 22, 2017</h8><br>
+            <h8 id="center">Technologies Used</h8>
+            <ul id="list2">
+              <li class="list2">HTML</li>
+              <li class="list2">Mongoose</li>
+              <li class="list2">Angular</li>
+              <li class="list2">CSS</li>
+              <li class="list2">Express</li>
+              <li class="list2">NodeJS</li>
+            </ul>
+          </div>
+          <div class="modal">
+            <a href="https://github.com/VernonReis/brewery_app" target="_blank"><img class="github" src="https://i.imgur.com/ZcQPkyQ.png"></a>
+            <a href="https://wdir-brewery.herokuapp.com/" target="_blank"><img class="github" src="https://i.imgur.com/dib3gSI.png"></a>
+          </div>
+        </div>
+        <p>An app that lets you find the breweries near you! Been to a brewery and don't see it on there? Log in and add it. Make sure to leave a review if you try out any of the breweries.</p>
+        <p><a data-popup-close="popup-5" href="#">Close</a></p>
+        <a class="popup-close" data-popup-close="popup-5" href="#">x</a>
+      </div>
     </div>
 
     <div id="work">
       <div class="worktitle">
-        <h4>works in<br> progress</h4>
+        <h2>works inprogress</h2>
       </div>
       <div id="workright">
 
         <div class="projects">
-        <a data-popup-open="popup-1" href="#"><img class="projectimg"  src="https://i.imgur.com/q9PUlzs.jpg" alt="cactus pinterest"></a>
+          <a data-popup-open="popup-1" href="#"><img class="projectimg"  src="https://i.imgur.com/q9PUlzs.jpg" alt="cactus pinterest"></a>
         </div>
         <div class="projects">
           <a data-popup-open="popup-2" href="#"><img class="projectimg" src="https://i.imgur.com/DPVMyaa.jpg"></a>
@@ -213,49 +215,22 @@ I hope you enjoy looking around my website and please contact me if you have any
 
       </div>
     </div>
-  </div>
+    <div>
+      <h2>contact</h2>
+      <div id="contact">
+
+          <a class="circle"><img class="contact non" src="https://i.imgur.com/YdGNjo1.png" alt="email"><h4>madisonray1994@gmail.com</h4></a>
 
 
+          <a class="circle"><img class="contact non" src="https://i.imgur.com/LE60L9p.png" alt="phone"><h4>713-906-8537</h4></a>
 
-  <div class="resume">
-    <div class="resumeCont">
-      <h5>resume</h5>
-      <div id="resPush">
-        <img id="resume" src="https://i.imgur.com/utVHM8p.png" alt="resume">
+
+          <a class="circle" href="https://www.pinterest.com/madisonray1994/?eq=madison&etslf=NaN" target="_blank"><img class="contact spin" src="https://i.imgur.com/BtFbcNV.png" alt="pinterest"></a>
       </div>
+
     </div>
-  </div>
-
-
-  <div id="contact" class="contact">
-    <div class="contactcon">
-      <div>
-        <h6>contact<br> me</h6>
-      </div>
-      <div class="container">
-        <div>
-          <form method="POST" action="https://formspree.io/madisonray1994@gmail.com" target="_blank">
-            <input type="text" name="name" placeholder="Your Name">
-            <input type="email" name="email" placeholder="Your email">
-            <textarea name="message" placeholder="Your message"></textarea>
-            <br>
-            <button type="submit">Send</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
 <footer>
-  <div class="iconcont">
-    <div id="heart">
-      <p>Created with ❤️ Madison Ray</p>
-    </div>
-  <div id="icons">
-    <a href="https://github.com/madsray"><img class="icon" src="https://i.imgur.com/5WVtHJz.png"></a>
-    <a href="https://www.linkedin.com/in/madisoneray/"> <img class="icon" src="https://i.imgur.com/chwlIwZ.png"></a>
-    <a href="https://profiles.generalassemb.ly/madisonray"><img  class="icon" src="https://i.imgur.com/6r8RkZU.png"></a>
-  </div>
-</div>
+      <p id="footer">Created with ❤️ Madison Ray</p>
 </footer>
 </body>
 </html>
