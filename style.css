@@ -16,12 +16,14 @@ body {
   justify-content: center;
   padding-top:25px;
   position: fixed;
+  z-index: 5;
   ]
 }
 header{
   background-image: url('meee.png');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   width: auto;
   height: 800px;
   margin-top: 0;
