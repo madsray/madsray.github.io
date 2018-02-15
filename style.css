@@ -14,9 +14,11 @@ body {
 #headcont{
   display: flex;
   justify-content: center;
-  padding-top:25px;
+  padding:25px 0;
   position: fixed;
   z-index: 5;
+  background-color:rgba(231, 229, 234,.5);
+
   ]
 }
 header{
