@@ -365,3 +365,6 @@ img.spin:hover{
   width: 100%;
   justify-content: center ;
 }
+.projectimg:hover{
+  opacity: .3;
+}
